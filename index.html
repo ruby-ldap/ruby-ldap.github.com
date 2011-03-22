@@ -2,119 +2,132 @@
 <html>
   <head>
     <meta charset='utf-8'>
-
-    <title>ruby-ldap/ruby-net-ldap @ GitHub</title>
-
-    <style type="text/css">
-      body {
-        margin-top: 1.0em;
-        background-color: #b20f06;
-        font-family: Helvetica, Arial, FreeSans, san-serif;
-        color: #ffffff;
-      }
-      #container {
-        margin: 0 auto;
-        width: 700px;
-      }
-      h1 { font-size: 3.8em; color: #4df0f9; margin-bottom: 3px; }
-      h1 .small { font-size: 0.4em; }
-      h1 a { text-decoration: none }
-      h2 { font-size: 1.5em; color: #4df0f9; }
-      h3 { text-align: center; color: #4df0f9; }
-      a { color: #4df0f9; }
-      .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-      .download { float: right; }
-      pre { background: #000; color: #fff; padding: 15px;}
-      hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-      .footer { text-align:center; padding-top:30px; font-style: italic; }
-    </style>
+    <link rel="stylesheet" href="css/960.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+    <title>Net::LDAP for Ruby @ GitHub</title>
   </head>
-
   <body>
-    <a href="http://github.com/ruby-ldap/ruby-net-ldap"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-    <div id="container">
-
-      <div class="download">
+    <a href="http://github.com/ruby-ldap/ruby-net-ldap">
+      <img class="github-ribbon" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+    <div id="header" class="container_24">
+      <h1 id="title" class="grid_16">Net::LDAP for Ruby</h1>
+      <div id="download-box" class="grid_6 push_2 downloads teardrop-corners">
+        <h2>Downloads</h2>
         <a href="http://github.com/ruby-ldap/ruby-net-ldap/zipball/master">
           <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
         <a href="http://github.com/ruby-ldap/ruby-net-ldap/tarball/master">
           <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
       </div>
-
-      <h1><a href="http://github.com/ruby-ldap/ruby-net-ldap">ruby-net-ldap</a>
-        <span class="small">by <a href="http://github.com/ruby-ldap">ruby-ldap</a></span></h1>
-
-      <div class="description">
-        Pure Ruby LDAP library
-      </div>
-
-      <p>The Lightweight Directory Access Protocol (LDAP) is an Internet protocol for
-        accessing distributed directory services.</p>
-
-      <p>Net::LDAP is an LDAP support library written in pure Ruby. It supports most
-        LDAP client features and a subset of server features as well.</p>
-
-      <ul>
-        <li>Standards-based (going for RFC 4511)</li>
-        <li>Portable: 100% Ruby</li>
-      </ul>
-      <h2>Dependencies</h2>
-      <p>No dependencies for users.</p>
-
-      <p>Developers will need:</p>
-      <ul>
-        <li>hoe</li>
-        <li>hoe-git</li>
-        <li>hoe-gemspec</li>
-        <li>metaid</li>
-        <li>flexmock</li>
-        <li>rspec 2</li>
-      </ul>
-    </p>
-    <h2>Install</h2>
-    <p>gem install ruby-net-ldap</p>
-    <h2>License</h2>
-    <p>MIT</p>
-    <h2>Authors</h2>
-    <ul>
-      <li>Francis Cianfrocca (garbagecat)</li>
-      <li>Austin Ziegler (halostatue)</li>
-      <li>James Hewitt (jamstah)</li>
-      <li>Kaspar Schiess (kschiess)</li>
-      <li>Emiel van de Laar (emiel)</li>
-      <li>Rory O'Connell (roryo)</li>
-    </ul>
-    <h2>Contributors</h2>
-    <ul>
-      <li>Kouhei Sutou (kou)</li>
-      <li>Lars Tobias Skjong-Børsting (larstobi)</li>
-      <li>Tony Headford (tonyheadford)</li>
-      <li>Derek Harmel (derekharmel)</li>
-      <li>Erik Hetzner (egh)</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>Austin Ziegler (halostatue+rubyldap@gmail.com)</p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/ruby-ldap/ruby-net-ldap/zipball/master">zip</a> or
-      <a href="http://github.com/ruby-ldap/ruby-net-ldap/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/ruby-ldap/ruby-net-ldap</pre>
-      </p>
-
-      <div class="footer">
-        get the source code on GitHub : <a href="http://github.com/ruby-ldap/ruby-net-ldap">ruby-ldap/ruby-net-ldap</a>
-      </div>
-
     </div>
-
-
+    <div id="content" class="container_24">
+      <div id="body" class="grid_16">
+        <h2 id="description">Description</h2>
+        <p>Net::LDAP for Ruby (also called net-ldap) implements client access
+          for the Lightweight Directory Access Protocol (LDAP), an IETF
+          standard protocol for accessing distributed directory services.
+          Net::LDAP is written completely in Ruby with no external
+          dependencies. It supports most LDAP client features and a subset of
+          server features as well.</p>
+        <p>Net::LDAP has been tested against modern popular LDAP servers
+          including OpenLDAP and Active Directory. The current release is
+          mostly compliant with earlier versions of the IETF LDAP RFCs
+          (2251–2256, 2829–2830, 3377, and 3771). Our roadmap for Net::LDAP 1.0
+          is to gain full <em>client</em> compliance with the most recent LDAP
+          RFCs (4510–4519, plus portions of 4520–4532).</p>
+        <h2 id="where">Where</h2>
+        <ul>
+          <li><a href="http://rubyforge.org/projects/net-ldap">RubyForge</a></li>
+          <li><a href="https://github.com/ruby-ldap/ruby-net-ldap">GitHub</a></li>
+          <li><a href="http://groups.google.com/group/ruby-ldap">ruby-ldap@googlegroups.com</a></li>
+          <li><a href="http://net-ldap.rubyforge.org/">Documentation</a></li>
+        </ul>
+        <p>The Net::LDAP for Ruby documentation, project description, and main
+          downloads can currently be found on <a
+            href="http://rubyforge.org/projects/net-ldap">RubyForge</a>.</p>
+        <h2 id="dependencies">Dependencies</h2>
+        <p>Net::LDAP for Ruby is a pure-Ruby library and currently depends on
+          no external libraries for execution. It will run on a Ruby 1.8.7
+          interpreter or better.</p>
+        <h3 id="developerdependencies">Developer Dependencies</h3>
+        <p>If you want to make changes to Net::LDAP for Ruby or build a gem
+          yourself, you will need:</p>
+        <ul>
+          <li>hoe</li>
+          <li>hoe-git</li>
+          <li>hoe-gemspec</li>
+          <li>metaid</li>
+          <li>flexmock</li>
+          <li>rspec 2</li>
+        </ul>
+        <h2 id="install">Install</h2>
+        <p>You can install the RubyGems version of Net::LDAP available from the
+          usual sources.</p>
+        <pre>gem install net-ldap</pre>
+        <p>Simply require either 'net-ldap' or 'net/ldap'.</p>
+        <h3 id="download">Download</h3>
+        <p>You can download this project in either <a
+            href="http://github.com/ruby-ldap/ruby-net-ldap/zipball/master">zip</a>
+          or <a
+            href="http://github.com/ruby-ldap/ruby-net-ldap/tarball/master">tar</a>
+          formats.</p>
+        <p>You can clone the project with <a href="http://git-scm.com">Git</a>
+          by running:
+        <pre>% git clone git://github.com/ruby-ldap/ruby-net-ldap</pre>
+        <p>For non-RubyGems installations of Net::LDAP, you can use Minero
+          Aoki's <a
+            href="http://i.loveruby.net/en/projects/setup/">setup.rb</a> as the
+          layout of Net::LDAP is compliant. The setup installer is not included
+          in the Net::LDAP repository.</p>
+        <h2 id="contributors">Contributors</h2>
+        <p>Net::LDAP was originally developed by:</p>
+        <ul>
+          <li>Francis Cianfrocca (garbagecat)</li>
+        </ul>
+        <p>Contributions since:</p>
+        <ul>
+          <li>Emiel van de Laar (emiel)</li>
+          <li>Rory O'Connell (roryo)</li>
+          <li>Kaspar Schiess (kschiess)</li>
+          <li>Austin Ziegler (halostatue)</li>
+          <li>Dimitrij Denissenko (dim)</li>
+          <li>James Hewitt (jamstah)</li>
+          <li>Kouhei Sutou (kou)</li>
+          <li>Lars Tobias Skjong-Børsting (larstobi)</li>
+          <li>Rory O'Connell (roryo)</li>
+          <li>Tony Headford (tonyheadford)</li>
+          <li>Derek Harmel (derekharmel)</li>
+          <li>Erik Hetzner (egh)</li>
+          <li>nowhereman</li>
+        </ul>
+        <h2 id="License">License</h2>
+        <p>This software is available under the terms of the MIT license.</p>
+        <p>Copyright © 2006–2011 by Francis Cianfrocca and other
+          contributors.</p>
+        <p>Permission is hereby granted, free of charge, to any person
+          obtaining a copy of this software and associated documentation files
+          (the "Software"), to deal in the Software without restriction,
+          including without limitation the rights to use, copy, modify, merge,
+          publish, distribute, sublicense, and/or sell copies of the Software,
+          and to permit persons to whom the Software is furnished to do so,
+          subject to the following conditions:</p>
+        <p>The above copyright notice and this permission notice shall be
+          included in all copies or substantial portions of the Software.</p>
+        <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+          EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+          NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+          BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+          ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+          CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+          SOFTWARE.</p>
+        <h3 id="notice-of-license-change">Notice of License Change</h3>
+        <p>Versions prior to 0.2 were under Ruby's dual license with the GNU
+          GPL. With this release (0.2), Net::LDAP is now under the MIT license.</p>
+      </div>
+    </div>
   </body>
 </html>
